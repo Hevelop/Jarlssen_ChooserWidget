@@ -1,5 +1,6 @@
 {
     "name": "jarlssen/chooser-widget",
+    "type":"magento-module",
     "description": "Fork from a project found on github we could use",
     "license": "?",
     "authors": [
@@ -9,5 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
 }
